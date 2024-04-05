@@ -1,0 +1,174 @@
+.storySectionWrapper {
+    background-color: #060633;
+    padding: 4vw;
+}
+
+.formWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.greetingUser {
+    font-size: 1.4vw;
+    font-weight: 600;
+
+}
+
+.riddle {
+    font-size: 1vw;
+    line-height: 34px;
+    font-weight: 300;
+}
+
+.inputTitle {
+    font-size: 1vw;
+    font-weight: 400;
+}
+
+.formContent {
+    width: 48%;
+
+}
+
+.formElement {
+    width: 40%;
+}
+
+.buttonWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inputs input {
+    margin-top: 8px;
+}
+
+.inputs input::placeholder,
+.selectInput select option:first-child {
+    color: #838891
+}
+
+.inputs input,
+.selectInput select {
+    height: 44px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 8px;
+    font-size: 0.75vw;
+    color: #000000;
+    background-color: #E1E7EF;
+    padding: 10px 50px;
+}
+
+.selectInput select option {
+    padding: 0px 10px;
+    color: #000000;
+}
+
+.selectInput {
+    width: 44%;
+}
+
+.buttonWrapper button {
+    text-align: center;
+    background: linear-gradient(90deg, #3863FC 0%, #94238B 100%);
+    height: 44px;
+    padding: 10px;
+    width: 50%;
+    border-radius: 8px;
+    font-size: 0.75vw;
+    font-weight: 500;
+}
+
+.buttonWrapper button,
+input,
+select {
+    cursor: pointer;
+}
+
+.InputMargin {
+    margin-top: 30px;
+}
+
+.buttonWrapper {
+    margin-top: 38px;
+}
+
+.InputAbs,
+.selectInput {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.InputAbs img,
+.selectInput img {
+    position: absolute;
+    left: 13px;
+    top: 16px;
+}
+
+.selectInput img {
+    top: 8px;
+}
+
+select {
+    -webkit-appearance: none;
+    /* WebKit/Blink Browsers */
+    -moz-appearance: none;
+    /* Gecko Browsers */
+    appearance: none;
+}
+
+.lightInput {
+    color: #838891;
+}
+
+.riddleMargin {
+    margin-top: 25px;
+}
+
+.riddleBottom {
+    margin-top: 10px;
+}
+
+.storyContainer,
+.StoryGenre img,
+.bluredImage {
+    width: 100%;
+    height: 45vh;
+}
+
+.StoryGenre img,
+.bluredImage {
+    border-radius: 6px;
+    position: absolute;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.bluredImage {
+    z-index: 2;
+    background: rgba(68, 68, 68, 0.73);
+}
+
+.StoryGenre {
+    position: relative;
+}
+
+.storyContainer {
+    color: #ffffff;
+    position: relative;
+    z-index: 9999;
+    padding: 1.5vw 2vw;
+    margin: 4vw 0vw;
+    border-radius: 8px;
+}
+
+.storyContainer span,
+.storyContainer p {
+    color: #ffffff;
+    font-size: 1vw;
+}
